@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>assA</title>
+</head>
+<style>
+    body {
+        background-color: rgb(34, 87, 110);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    div {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 400px;
+        height: 300px;
+    }
+    input {
+        margin: 1px;
+        width: 100%;
+        height: 10px;
+        padding: 10px;
+        border: 1px solid;
+        border-radius: 5%;
+        font-size: medium;
+    }
+    form {
+        margin-bottom: 20px;
+    }
+    label {margin: 1px;
+        display: flex;
+        margin-bottom: 10px;
+        font-size: medium;
+    }
+    button {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(216, 82, 127);
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+</style>
+<body>
+    <div>
+        <h1>
+            Login
+        </h1>
+        <form>
+<label for="Email">Email</label><br>
+<input type="email" id="Email" name="Email"><br>
+<label for="Password">Password</label><br>
+<input type="password" id="Password" name="Password"><br>
+<input type="checkbox" id="Remember me" value="Remember me">
+<label for="Remember me">Remember me</label>
+<hr>
+<button type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
